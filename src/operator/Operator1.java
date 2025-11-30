@@ -1,0 +1,26 @@
+package operator;
+
+public class Operator1 {
+    public static void main(String[] args) {
+
+        int a = 5;
+        int b = 2;
+
+        //덧셈
+        int sum = a + b;
+        System.out.println("a + b=" + sum);
+        //뺼셈
+        int diff = a - b;
+        System.out.println("a - b=" + diff);
+        //곱셈
+        int multiply = a * b;
+        System.out.println("a * b=" + multiply);
+        //나눗셈
+        int div = a / b;
+        System.out.println("a / b=" + div);
+
+        //나머지
+        int mod = a % b;
+        System.out.println("a % b=" + mod);
+    }
+}
