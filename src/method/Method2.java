@@ -1,0 +1,20 @@
+package method;
+
+public class Method2 {
+    public static void main(String[] args) {
+        printHeader();
+        printFooter();
+    }
+
+    //반환타입이 없는경우 void로 정의해.
+    public static void printHeader(){
+        System.out.println("= 프로그램을 시작합니다.=");
+        return;//없어도됨 리턴값.
+    }
+
+
+    public static void printFooter(){
+        System.out.println("= 프로그램을 종료합니다.=");
+        return;
+    }
+}
